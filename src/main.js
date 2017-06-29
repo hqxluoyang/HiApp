@@ -42,7 +42,7 @@ import VueI18n from 'vue-i18n'
 import StoreCache from './utils/storeCache'
 import enUS from './lang/en_us'
 import zhCN from './lang/zh_cn'
-
+console.log('hihi')
 let cache = new StoreCache('vuex')
 Vue.use(VueI18n)
 Vue.config.lang = cache.get('lang') || 'en'
